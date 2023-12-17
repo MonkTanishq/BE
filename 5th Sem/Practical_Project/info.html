@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> info </title>
+    </head>
+    <body>
+        <form action="showHeader" method="post">
+            <fieldset>
+                <legend> Anime Information </legend> 
+                <br>
+                <label for="fname"> First Name </label>
+                <input type="text" id="fname" name="fname"> <br> <br>
+                <label for="lname"> Last Name </label>
+                <input type="text" id="lname" name="lname"> <br> <br>
+
+                <!-- in for we use the id of the tag which is used to uniquely identify the tag -->
+                <label for="pwd"> Password </label>
+                <input type="password" id="pwd" name="pwd"> <br> <br>
+
+                <p> Your favourite anime is: </p>
+                <input type="radio" id="aot" name="fav_anime" value="aot">
+                <label for="aot"> Attack on Titan </label>
+                <input type="radio" id="naruto" name="fav_anime" value="naruto">
+                <label for="naruto"> Naruto </label>
+                <input type="radio" id="demon_slayer" name="fav_anime" value="demon_slayer">
+                <label for="demon_slayer"> Demon Slayer </label>
+                <input type="radio" id="one_piece" name="fav_anime" value="one_piece">
+                <label for="one_piece"> One Piece </label>
+                <input type="radio" id="jujtsu_kaisen" name="fav_anime" value="jujtsu_kaisen">
+                <label for="jujtsu_kaisen"> Jujutsu Kaisen </label> <br><br>
+                
+                <p> Which genre do you like? </p> 
+                <input type="checkbox" id="action_" name="genre" value="action_">
+                <label for="action_"> Action </label>
+                <input type="checkbox" id="ecchi" name="genre" value="ecchi">
+                <label for="ecchi"> Ecchi </label>
+                <input type="checkbox" id="martial_arts" name="genre" value="martial_arts">
+                <label for="martial_arts"> Martial Arts </label>
+                <input type="checkbox" id="romance" name="genre" value="romance">
+                <label for="romance"> Romance </label>
+                <input type="checkbox" id="shounen" name="genre" value="shounen">
+                <label for="shounen"> Shounen </label>
+                <input type="checkbox" id="sports" name="genre" value="sports">
+                <label for="sports"> Sports </label> <br> <br>
+
+
+                <label for="platform"> Which plaform you watch on? </label><br>
+                <select id="platform" name="platform">
+                    <option value="9anime"> 9anime </option>
+                    <option value="Gogoanime"> Gogoanime </option>
+                </select> <br> <br>
+                Suggssion Box: <br>
+                <textarea name="message" rows="5" cols="100"> Any other Suggessions for anime or platforms can be written here!!!  </textarea>
+                <br> <br>
+
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset"> <br>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
